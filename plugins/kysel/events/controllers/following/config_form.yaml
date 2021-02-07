@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Following
+
+# Model Form Field configuration
+form: $/kysel/events/models/following/fields.yaml
+
+# Model Class name
+modelClass: Kysel\Events\Models\Following
+
+# Default redirect location
+defaultRedirect: kysel/events/following
+
+# Create page
+create:
+    title: Create Following
+    redirect: kysel/events/following/update/:id
+    redirectClose: kysel/events/following
+
+# Update page
+update:
+    title: Edit Following
+    redirect: kysel/events/following
+    redirectClose: kysel/events/following
+
+# Preview page
+preview:
+    title: Preview Following

@@ -1,0 +1,20 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+    user_id:
+        label: User
+        type: text
+        searchable: true
+        relation: user
+        select: name
+    event_id:
+        label: Following
+        type: text 
+        searchable: true
+        relation: event
+        select: name

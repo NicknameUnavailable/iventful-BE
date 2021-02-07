@@ -1,0 +1,40 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+    name:
+        label: Meno
+        disabled: false
+        type: text
+    poster:
+        label: Obrázok podujatia
+        type: fileupload
+        mode: image
+        imageWidth: 100
+        imageHeight: 100
+    user:
+        label: Organizátor
+        type: relation
+        select: name
+    address:
+        label: Adresa
+        type: text
+    date_start:
+        label: Zaciatok
+        span: left
+        type: datepicker
+        mode: date
+        format: d-m-Y
+    date_end:
+        label: Koniec
+        span: right
+        type: datepicker
+        mode: date
+        format: d-m-Y
+    description:
+        label: Popis
+        type: text

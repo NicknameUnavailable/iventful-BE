@@ -1,0 +1,5 @@
+1.0.2: 
+- Second version of Events
+- create_events_table.php
+- create_followings_table.php
+- fill_events_table.php

@@ -1,0 +1,1 @@
+1612732695a:1:{i:0;O:8:"stdClass":3:{s:2:"id";s:1:"2";s:4:"item";s:23:"vdomah_jwtauth_settings";s:5:"value";s:205:"{"secret":"","signup_fields":["name","email","password","password_confirmation"],"is_login_disabled":"1","is_signup_disabled":"1","is_refresh_disabled":"1","is_invalidate_disabled":"1","login_fields":null}";}}
